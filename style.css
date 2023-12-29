@@ -1,0 +1,22 @@
+body {
+    background-size: cover;
+    background-color: rgb(164, 241, 250);
+}
+
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+div {
+    color: rgb(154, 232, 234);
+    float: right;
+    margin-top: -90px;
+    margin-right: 60px;
+    padding: -70px;
+    font-size: larger;
+    
+}

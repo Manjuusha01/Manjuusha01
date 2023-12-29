@@ -1,0 +1,43 @@
+body {
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0%;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(245, 182, 234);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-form {
+    width: 20%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-form label, .task-form input, .task-form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.task-form input[type="text"], .task-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.task-form button {
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

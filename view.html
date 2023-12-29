@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>View All</title>
+        <link rel="stylesheet" href="../static/css/task.css">
+
+    </head>
+    <body>
+        <h1> Task List </h1>
+        <table border="1px">
+            <thead>
+               <tr> 
+                 <th>title</th>
+                 <th>due_date</th>
+                 <th>ts_status</th>
+               </tr>
+            </thead>
+            <tbody>
+                {% for i in sqldata %}
+                <tr>
+                    <td>{{i[0]}}</td>
+                    <td>{{i[1]}}</td>
+                    <td>{{i[2]}}</td>
+                    <td>{{i[3]}}</td>
+                </tr>            
+                {% endfor %}
+                
+            </tbody>
+        </table>
+    </body>
+</html>
+
+
